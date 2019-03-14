@@ -1,0 +1,109 @@
+2019-03-14 17:42:43,286 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[7138] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-14 17:42:43,334 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[7138] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-14 17:42:43,513 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[7138] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-14 17:42:43,569 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[7138] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.727s. Listening on: http://127.0.0.1:8080
+2019-03-14 17:42:43,575 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[7138] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy]
+2019-03-14 17:42:58,276 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[7138] INFO  [io.quarkus] (main) Quarkus stopped in 0.025s
+2019-03-14 20:38:15,468 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[10932] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-14 20:38:15,511 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[10932] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-14 20:38:15,653 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[10932] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-14 20:38:15,708 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[10932] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.788s. Listening on: http://127.0.0.1:8080
+2019-03-14 20:38:15,711 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[10932] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy]
+2019-03-14 20:38:28,569 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[10932] ERROR [org.jbo.res.res.i18n] (XNIO-1 task-1) RESTEASY002005: Failed executing GET /fruits: org.jboss.resteasy.core.NoMessageBodyWriterFoundFailure: Could not find MessageBodyWriter for response object of type: scala.collection.immutable.$colon$colon of media type: application/json
+	at org.jboss.resteasy.core.ServerResponseWriter.lambda$writeNomapResponse$2(ServerResponseWriter.java:106)
+	at org.jboss.resteasy.core.interception.jaxrs.ContainerResponseContextImpl.filter(ContainerResponseContextImpl.java:405)
+	at org.jboss.resteasy.core.ServerResponseWriter.executeFilters(ServerResponseWriter.java:219)
+	at org.jboss.resteasy.core.ServerResponseWriter.writeNomapResponse(ServerResponseWriter.java:83)
+	at org.jboss.resteasy.core.ServerResponseWriter.writeNomapResponse(ServerResponseWriter.java:57)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeResponse(SynchronousDispatcher.java:576)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:506)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:252)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:153)
+	at org.jboss.resteasy.core.interception.jaxrs.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:362)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:156)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:238)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:229)
+	at io.quarkus.resteasy.runtime.ResteasyFilter$ResteasyResponseWrapper.sendError(ResteasyFilter.java:72)
+	at io.undertow.servlet.handlers.DefaultServlet.doGet(DefaultServlet.java:173)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.quarkus.resteasy.runtime.ResteasyFilter.doFilter(ResteasyFilter.java:43)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at io.quarkus.undertow.runtime.UndertowDeploymentTemplate$7$1$1.call(UndertowDeploymentTemplate.java:415)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:364)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1998)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1525)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1416)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2019-03-14 20:43:13,376 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[10932] INFO  [io.quarkus] (main) Quarkus stopped in 0.022s
+2019-03-14 20:45:51,770 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11606] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-14 20:45:51,809 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11606] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-14 20:45:52,095 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11606] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-14 20:45:52,143 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11606] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.986s. Listening on: http://127.0.0.1:8080
+2019-03-14 20:45:52,145 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11606] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-14 20:48:14,959 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11606] INFO  [io.quarkus] (main) Quarkus stopped in 0.011s
+2019-03-14 20:51:00,138 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12116] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-14 20:51:00,176 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12116] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-14 20:51:00,313 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12116] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-14 20:51:00,360 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12116] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.737s. Listening on: http://127.0.0.1:8080
+2019-03-14 20:51:00,362 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12116] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-14 20:53:02,934 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12116] INFO  [io.quarkus] (main) Quarkus stopped in 0.007s
+2019-03-14 20:55:53,885 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12723] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-14 20:55:53,923 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12723] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-14 20:55:54,061 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12723] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-14 20:55:54,107 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12723] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.720s. Listening on: http://127.0.0.1:8080
+2019-03-14 20:55:54,109 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12723] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-14 21:09:27,057 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[12723] INFO  [io.quarkus] (main) Quarkus stopped in 0.017s
+2019-03-14 21:14:57,192 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[13957] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-14 21:14:57,238 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[13957] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-14 21:14:57,358 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[13957] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-14 21:14:57,414 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[13957] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.709s. Listening on: http://127.0.0.1:8080
+2019-03-14 21:14:57,419 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[13957] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-14 21:23:26,092 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[13957] INFO  [io.quarkus] (main) Quarkus stopped in 0.014s
+2019-03-14 21:48:04,961 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[15316] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-14 21:48:05,009 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[15316] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-14 21:48:05,139 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[15316] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-14 21:48:05,188 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[15316] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 0.817s. Listening on: http://127.0.0.1:8080
+2019-03-14 21:48:05,190 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[15316] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-14 21:49:44,400 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[15316] INFO  [io.quarkus] (main) Quarkus stopped in 0.026s
+2019-03-14 21:59:16,403 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[16597] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-14 21:59:16,460 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[16597] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-14 21:59:16,686 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[16597] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-14 21:59:16,762 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[16597] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 1.079s. Listening on: http://127.0.0.1:8080
+2019-03-14 21:59:16,765 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[16597] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-14 22:01:34,008 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[16597] INFO  [io.quarkus] (main) Quarkus stopped in 0.012s
+2019-03-14 22:08:47,638 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[17483] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-14 22:08:47,707 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[17483] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-14 22:08:47,923 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[17483] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-14 22:08:47,989 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[17483] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 1.001s. Listening on: http://127.0.0.1:8080
+2019-03-14 22:08:47,992 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[17483] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-14 22:09:16,022 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[17483] INFO  [io.quarkus] (main) Quarkus stopped in 0.026s
