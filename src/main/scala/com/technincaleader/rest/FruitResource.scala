@@ -21,14 +21,15 @@ class Fruit(name:String, description:String){
   def getDescription()=this.description
 }
 
+
 @Path("/fruits")
 @Produces(Array[String](MediaType.APPLICATION_JSON))
 class FruitResource(){
   import collection.JavaConverters._
 
   private val fruits = Seq(
-    new Fruit("Apple", "The snake gift"),
-    new Fruit("Orange", "Who was born before the fruit or the color?")
+    new Fruit("Apple", "The snake's gift"),
+    new Fruit("Orange", "What was born before: the fruit or the color?")
   )
 
 

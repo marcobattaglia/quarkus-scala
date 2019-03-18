@@ -6,7 +6,8 @@ The [quarkus.io](https://quarkus.io) is a RedHat open source framework: a Kubern
 
 ## json serialization
 GraalVM doesn't fully support reflection, but json-B works using reflection.
-In quarkus you can use @RegisterForReflection ...TODO
+But there is a feature of the compiler that permit to declare which class need a reflection upon at runtime.
+You need to provide a json file or to use this quarkus annotation @RegisterForReflection on the classes to be inspected by reflection.
 
 ## Clean and compile
 ```

@@ -107,3 +107,27 @@
 2019-03-14 22:08:47,989 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[17483] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 1.001s. Listening on: http://127.0.0.1:8080
 2019-03-14 22:08:47,992 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[17483] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
 2019-03-14 22:09:16,022 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[17483] INFO  [io.quarkus] (main) Quarkus stopped in 0.026s
+2019-03-18 18:50:05,809 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[6722] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-18 18:50:05,949 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[6722] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-18 18:50:06,284 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[6722] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-18 18:50:06,439 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[6722] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 1.713s. Listening on: http://127.0.0.1:8080
+2019-03-18 18:50:06,450 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[6722] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-18 18:55:17,089 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[6722] INFO  [io.quarkus] (main) Quarkus stopped in 0.072s
+2019-03-18 19:40:30,159 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9105] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-18 19:40:30,266 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9105] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-18 19:40:30,610 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9105] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-18 19:40:30,724 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9105] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 1.642s. Listening on: http://127.0.0.1:8080
+2019-03-18 19:40:30,732 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9105] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-18 19:49:05,561 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9105] INFO  [io.quarkus] (main) Quarkus stopped in 0.029s
+2019-03-18 19:56:11,238 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9993] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-18 19:56:11,346 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9993] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-18 19:56:11,688 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9993] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-18 19:56:11,739 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9993] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 1.608s. Listening on: http://127.0.0.1:8080
+2019-03-18 19:56:11,741 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9993] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-18 20:00:10,390 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[9993] INFO  [io.quarkus] (main) Quarkus stopped in 0.008s
+2019-03-18 20:06:30,908 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11107] DEBUG [org.xnio] (main) XNIO version 3.6.5.Final
+2019-03-18 20:06:30,998 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11107] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.6.5.Final
+2019-03-18 20:06:31,246 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11107] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-03-18 20:06:31,338 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11107] INFO  [io.quarkus] (main) Quarkus 0.11.0 started in 1.507s. Listening on: http://127.0.0.1:8080
+2019-03-18 20:06:31,345 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11107] INFO  [io.quarkus] (main) Installed features: [cdi, kotlin, resteasy, resteasy-jsonb]
+2019-03-18 20:07:10,258 localhost rest-scala-kotlin-1.0-SNAPSHOT-runner.jar[11107] INFO  [io.quarkus] (main) Quarkus stopped in 0.038s
