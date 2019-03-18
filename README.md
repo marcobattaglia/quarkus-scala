@@ -6,8 +6,8 @@ The [quarkus.io](https://quarkus.io) is a RedHat open source framework: a Kubern
 
 ## json serialization
 GraalVM doesn't fully support reflection, but json-B works using reflection.
-But there is a feature of the compiler that permit to declare which class need a reflection upon at runtime.
-You need to provide a json file or to use this quarkus annotation @RegisterForReflection on the classes to be inspected by reflection.
+There is a feature of the compiler that permits to declare which class need a reflection upon at runtime.
+You need to provide a json file or to use this quarkus annotation @RegisterForReflection on the classes in order to enable the reflection.
 
 ## Clean and compile
 ```
@@ -29,7 +29,7 @@ mvn package -Pnative
  java -jar ./target/rest-scala-kotlin-1.0-SNAPSHOT-runner.jar
 ```
 
-##Test
+## Test
 It uses kotlin to test both the kotlin and the scala rest endpoint
 ```
 mvn test
